@@ -1,0 +1,11 @@
+project:
+    name: "Digisoultech"
+
+db:
+    uri: $MONGODB_URI
+    userdb: $DATABASE_NAME
+    certificationdb: $DATABASE_NAME
+    contactusdb: $DATABASE_NAME
+    careerdb: $DATABASE_NAME
+    popupdb: $DATABASE_NAME
+

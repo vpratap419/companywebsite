@@ -1,0 +1,244 @@
+.main {
+    padding-top: 140px;
+    background-color: rgb(255, 255, 250);
+  }
+
+/* Make the page cover the full viewport */
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #ef83fb, #79ebfd);
+}
+
+.about-content {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vh;
+    padding: 20px;
+    color: rgb(4, 3, 99);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Style for the title */
+.about-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+/* Paragraph styling */
+.about-content p {
+    font-size: 1.2rem;
+    width: 80%;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.about-content2 {
+    flex: 1;
+    width: 100%;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 75vh;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    transition: transform 1s ease-in-out;
+}
+
+.image-frame {
+    width: 90%;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30%;
+    margin-bottom: 20%;
+  }
+  
+  .sliding-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: slideImage 1s ease-in-out;
+  }
+  
+  @keyframes slideImage {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+  
+  .card-content {
+    text-align: center;
+  }
+
+.description {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+}
+
+.description-container {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.description-container h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.description-container  p {
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.about-grid {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.about-card {
+    background-color: rgb(243, 252, 252);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 15rem;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-card:hover {
+    transform: translateY(-5px);
+}
+
+.about-image {
+    width: 100%;
+    height: 10rem;
+    object-fit:contain;
+    border-radius: 5px;
+}
+
+.about-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.about-para {
+    text-align: justify;
+}
+
+.feature {
+    display: flex;
+    width: 100%;
+}
+
+.feature-container {
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 25%;
+    background-color: rgb(151, 173, 197);
+    border-radius: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature-container:hover {
+    transform: translateY(-5px);
+}
+
+.feature-container h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.feature-container p {
+    text-align: justify;
+    font-size: 1.2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.expert {
+    display: flex;
+    width: 100%;
+}
+
+.expert-container {
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 5%;
+    background-color: rgb(190, 192, 195);
+    border-radius: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.expert-container:hover {
+    transform: translateY(-5px);
+}
+
+.expert-container h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.expert-container p {
+    text-align: justify;
+    font-size: 1.2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.personal {
+    display: flex;
+    width: 100%;
+}
+
+.personal-container {
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 25%;
+    margin-bottom: 2%;
+    background-color: rgb(193, 132, 237);
+    border-radius: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.personal-container:hover {
+    transform: translateY(-5px);
+}
+
+.personal-container h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.personal-container p {
+    text-align: justify;
+    font-size: 1.2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}

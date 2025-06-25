@@ -1,0 +1,90 @@
+.main {
+    padding-top: 140px;
+  }
+
+.certification-page {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .certification-title {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .certification-intro {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .certification-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .cert-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .cert-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .cert-card h2 {
+    font-size: 1.25rem;
+    color: #34495e;
+    margin-bottom: 0.5rem;
+  }
+  
+  .cert-card p {
+    margin: 0.25rem 0;
+    color: #666;
+    font-size: 0.95rem;
+  }
+
+  .apply {
+    background-color: #310dc2;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    gap: 8px;
+  }
+
+  .apply a {
+    text-decoration: none;
+    color: inherit; /* Optional: keeps text color same as button text */
+  }
+
+  .apply:hover {
+    background-color: #5837d9;
+  }
+
+  @keyframes blinkColor {
+    0%   { color: #615fe4; }
+    50%  { color: #56e6dc; }
+    100% { color: #e73ce7; }
+  }
+  
+  .launch h1{
+    text-align: center;
+    animation: blinkColor 1s infinite;
+  }

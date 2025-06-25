@@ -1,0 +1,17 @@
+.main {
+    padding-top: 140px;
+  }
+
+.hostingservices-container {
+  width: 100%;
+  background-color: white;
+  height: fit-content;
+}
+
+.hostingservices-container h1 {
+  background: linear-gradient(to right, #ade9f3, #f6b6f2);
+  color: rgb(66, 45, 16);
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-align: center;
+}

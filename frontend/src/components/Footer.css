@@ -1,0 +1,38 @@
+.footer {
+    background-color: #efffff;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center; 
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer nav ul {
+    list-style-type: none;
+    font-size: large;
+  }
+  
+  .footer nav ul h2 {
+    text-align: left;
+    font-size: 1.5rem;
+  }
+
+  .footer nav ul li {
+    text-align: left;
+    font-size: 1rem;
+  }
+  
+  .footer nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  .footer nav ul li a:hover {
+    text-decoration: underline;
+  }
+  

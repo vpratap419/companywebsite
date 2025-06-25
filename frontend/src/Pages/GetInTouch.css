@@ -1,0 +1,99 @@
+.contact {
+  display: flex;
+  justify-content: space-between; /* Aligns children to the left and right */
+  padding: 20px;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+}
+
+.contact-container {
+  width: 100%;
+  max-width: 600px; /* Set a max width for the form */
+  background-color: #fbffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgb(243, 227, 246);
+  padding: 20px;
+  margin-left: 5%;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  margin-right: 5%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.animatedpic-card {
+  display: inline-block;
+  margin: 15px;
+  overflow: hidden;
+  max-width: 650px;
+  width: 100%; 
+}
+
+.animatedpic {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animatedpic img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+}
