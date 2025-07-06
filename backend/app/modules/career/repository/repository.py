@@ -5,11 +5,11 @@ from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
 import ssl
 
-twilio_account_sid = 'AC92fd4a0c31d88ab94fa3a43b362de7fb'
-twilio_auth_token = '44036a84d40fd51de9c4b609257c018a'
+twilio_account_sid = 'Replace with sid'
+twilio_auth_token = 'Replace with auth token'
 twilio_phone_number = '+17473300359'
 
-SENDGRID_API_KEY = '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'
+SENDGRID_API_KEY = 'Replace with API key'
 SENDER_EMAIL = 'lollipopsingh07@gmail.com'  # must be verified in SendGrid
 
 client = Client(twilio_account_sid, twilio_auth_token)
