@@ -7,7 +7,7 @@ from fastapi.encoders import jsonable_encoder
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 SMTP_EMAIL = "lollipopsingh07@gmail.com"
-SMTP_PASSWORD = "hicm sdxn smwj vvvn"
+SMTP_PASSWORD = "password"
 
 async def send_email(form_data: ContactForm):
     try:
